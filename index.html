@@ -18,6 +18,7 @@
         </div>
         <button>Login</button>
     </nav>
+
     <section>
         <header>
             <h1>Bootcamp DNC</h1>
@@ -28,11 +29,57 @@
                 <span class="invert">BACK-END, FRONT-END & BANCO DE DADOS.</span>
             </h2>
         </header>
+
         <form>
+            <!-- NOME -->
             <div class="form-group">
                 <label>Nome:</label>
                 <input type="text" placeholder="Insira seu nome aqui.">
             </div>
+
+            <!-- SOBRENOME -->
+            <div class="form-group">
+                <label>Sobrenome:</label>
+                <input type="text" placeholder="Insira seu sobrenome aqui.">
+            </div>
+
+            <!-- ÁREA DE INTERESSE -->
+            <div class="form-group">
+                <label>Área de Interesse:</label>
+                <div class="checkbox-items">
+                    <input type="checkbox" value="front">
+                    <label>Front-end</label>
+                </div>
+                <div class="checkbox-items">
+                    <input type="checkbox" value="back">
+                    <label>Back-end</label>
+                </div>
+                <div class="checkbox-items">
+                    <input type="checkbox" value="bd">
+                    <label>Banco de Dados</label>
+                </div>
+            </div>
+
+            <!-- EMAIL -->
+            <div class="form-group">
+                <label>E-mail:</label>
+                <input type="email" placeholder="Insira seu e-mail aqui.">
+            </div>
+
+            <!-- TELEFONE -->
+            <div class="form-group">
+                <label>Telefone:</label>
+                <input type="text" placeholder="(99) 99999-9999">
+            </div>
+
+            <!-- MENSAGEM -->
+            <div class="form-group">
+                <label>Insira uma frase criativa aqui:</label>
+                <input type="text" placeholder="Qual frase criativa você gostaria de falar? :)">
+            </div>
+
+            <!-- CADASTRAR -->
+            <input type="submit" value="Cadastrar">
         </form>
     </section>
 </body>
